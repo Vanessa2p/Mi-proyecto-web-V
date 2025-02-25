@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Vida - Vanessa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Vida de Vanessa</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Administración con Enfoque en Oratoria y Psicología</h2>
+            <p>Vanessa ha decidido enfocar su carrera en la administración, integrando habilidades de oratoria y psicología para optimizar la gestión de personas, liderazgo y comunicación efectiva en las organizaciones.</p>
+        </div>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+    color: #333;
+}
+header {
+    background-color: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    font-size: 1.5em;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+h2 {
+    color: #1976d2;
+}
+.section {
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: #bbdefb;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1976d2;
+    color: white;
+    margin-top: 20px;
+}
