@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto de Vida - Vanessa</title>
+    <title>Vanessa's Brainy Cup</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,14 +17,29 @@
             text-align: center;
             padding: 1em;
         }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #4CAF50;
+            border-radius: 5px;
+        }
         .container {
             width: 80%;
             margin: auto;
-            overflow: hidden;
             padding: 20px;
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            margin-top: 20px;
         }
         h2 {
             color: #333;
@@ -43,26 +58,40 @@
 </head>
 <body>
     <header>
-        <h1>Proyecto de Vida de Vanessa</h1>
+        <h1>Vanessa's Brainy Cup</h1>
     </header>
+    
+    <nav>
+        <a href="#sobre">Sobre Mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
     <div class="container">
-        <div class="section">
-            <h2>Administración con Enfoque en Oratoria y Psicología</h2>
-            <p>Vanessa ha decidido enfocar su carrera en la administración, integrando habilidades de oratoria y psicología para optimizar la gestión de personas, liderazgo y comunicación efectiva en las organizaciones.</p>
+        <div id="sobre" class="section">
+            <h2>Sobre Vanessa</h2>
+            <p>Vanessa combina su experiencia en administración, psicología y oratoria para ayudar a empresas y emprendedores a gestionar el talento, mejorar el liderazgo y potenciar la productividad.</p>
         </div>
-        <div class="section">
-            <h2>Salidas Profesionales</h2>
+        
+        <div id="servicios" class="section">
+            <h2>Servicios</h2>
             <ul>
-                <li><strong>Gestión Empresarial:</strong> Aplicación de estrategias psicológicas para mejorar el desempeño organizacional.</li>
-                <li><strong>Consultoría en Liderazgo:</strong> Ayuda a ejecutivos y líderes a mejorar sus habilidades comunicativas y emocionales.</li>
-                <li><strong>Recursos Humanos:</strong> Selección, capacitación y motivación del personal basándose en principios psicológicos.</li>
-                <li><strong>Coaching y Formación:</strong> Desarrollo de habilidades de comunicación y liderazgo en individuos y empresas.</li>
-                <li><strong>Emprendimiento:</strong> Creación de negocios con un enfoque en la gestión humana y organizacional.</li>
+                <li>Consultoría en Gestión Empresarial</li>
+                <li>Formación en Liderazgo y Comunicación</li>
+                <li>Coaching para Empresarios y Equipos</li>
+                <li>Estrategias de Bienestar y Productividad</li>
             </ul>
         </div>
+        
+        <div id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>Si quieres más información, puedes escribirme a: <strong>vanessa@email.com</strong></p>
+        </div>
     </div>
+    
     <footer>
-        <p>&copy; 2025 Proyecto de Vida de Vanessa - Todos los derechos reservados</p>
+        <p>&copy; 2025 Vanessa's Brainy Cup - Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
+
