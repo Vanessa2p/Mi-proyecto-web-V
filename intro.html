@@ -79,6 +79,29 @@
       padding: 1rem;
       margin: 1rem 0;
     }
+
+    /* 👇 Estilos nuevos para animaciones e imágenes */
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.03);
+    }
+
+    .fade-in {
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
@@ -116,8 +139,10 @@
       </ul>
     </section>
 
-    <section id="servicios">
+    <!-- ✅ SECCIÓN ACTUALIZADA CON IMAGEN -->
+    <section id="servicios" class="fade-in">
       <h2>Servicios</h2>
+      <img src="https://via.placeholder.com/900x300?text=Nuestros+Servicios" alt="Servicios de Consultoría">
       <ul>
         <li><strong>Consultoría:</strong> Asesoramiento en liderazgo, gestión del talento y productividad.</li>
         <li><strong>Talleres:</strong> Capacitaciones presenciales y virtuales para equipos.</li>
